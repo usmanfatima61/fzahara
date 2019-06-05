@@ -1,0 +1,18 @@
+
+<% include partial/header%>
+
+
+<h1> creat a new gallery</h1>
+<form action ="/gallery" method="POST" >
+<!-- /this will post new items to /gallery file-->
+<input type ="text" name="name" placeholder="name">
+<input type ="text" name="image" placeholder="url">
+<input type ="text" name="description" placeholder="description">
+<button> submit</button>
+</form> 
+     
+<a href="/gallery" > Go back</a>
+    
+    
+    
+<% include partial/footer%>
